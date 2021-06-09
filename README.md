@@ -10,5 +10,5 @@ My favorite part of the assignment was converting the html table to a DataFrame 
 
 I used a for loop to scrape all four images from the requested webpage. 
 
-I downloaded my Jupyter Notebook file to a .py file and renamed it scraper_mars. I cleaned up the scraper file and defined the functions. I created a dictionary to hold hold all the results of the functions. 
+I downloaded my Jupyter Notebook file to a .py file and renamed it scrape_mars. I cleaned up the scrape file and defined the functions. I created a dictionary to hold hold all the results of the functions. 
 
