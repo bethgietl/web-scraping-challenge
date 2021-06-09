@@ -1,11 +1,9 @@
-# Import Splinter, BeautifulSoup, and Pandas
-from splinter import Browser, browser
-#from bs4 import BeautifulSoup as soup
-import pandas as pd
-import datetime as dt
-from webdriver_manager.chrome import ChromeDriverManager
-import time
+#Import Splinter, BeautifulSoup, and Pandas
+from splinter import Browser
 from bs4 import BeautifulSoup as bs
+import pandas as pd
+import time
+from webdriver_manager.chrome import ChromeDriverManager
 
 executable_path = {'executable_path': ChromeDriverManager().install()}
 
@@ -23,8 +21,7 @@ def scrape_all():
         "news_paragraph": news_paragraph,
         "featured_image": featured_image(browser),
         "facts": mars_facts(),
-        "hemispheres": hemispheres_bg(),
-        "last_modified": dt.datetime.now()
+        "hemispheres": hemispheres_bg()
     }
 
     # Stop webdriver and return data
